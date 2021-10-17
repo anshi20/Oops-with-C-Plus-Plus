@@ -1,6 +1,6 @@
 /*
 
-    Task 4: 
+    Task 4: Version 1
               INPUT                 OUTPUT
              
               1 2 3                  1 1 1
