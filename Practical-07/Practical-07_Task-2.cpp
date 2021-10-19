@@ -1,5 +1,5 @@
 /*
-     Task 1 : Display the current year, month and day using switch-case. (Manual method)
+     Task 2 : Display the current year, month and day using switch-case. (Using ctime header file)
      
      Current Year : 2021
      Current Month : October
