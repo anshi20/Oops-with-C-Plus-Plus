@@ -4,15 +4,24 @@
           WAP which would perform these tasks of your data:
           a. Come to next line
 */
+#include <iomanip>
+#include <ios>
+#include <iostream>
 
-#include<iostream>
 using namespace std;
+
 int main()
 {
-   cout<<"We can come to next line in two ways : ";
-   cout<<endl;   \\endl manipulator
-   cout<<"First is \'endl\' ";
-   cout<<"\n";   \\escape sequence
-   cout<<"Second is escape sequence \'\\n\' ";
-   return 0;
+    // Initializing the integer
+    int num = 10;
+
+    cout << "Before setting the fill char:  \na- jump to next line using endl"<< endl<<"b- using setw to set minimum width of output\n"<< setw(10);
+    cout << num << endl;
+
+    // Using setfill()
+    cout << "Setting the fill char"<< " setfill to *: \n"<< setfill('*')<< setw(10);
+         
+    cout << num << endl;
+
+    return 0;
 }
