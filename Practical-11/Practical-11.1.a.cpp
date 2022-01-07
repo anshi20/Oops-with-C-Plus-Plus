@@ -6,7 +6,7 @@ class A{
     public:
        void displayA()
        {
-        cout << " Parent Class Method " << endl;
+        cout << "This is Parent Class Method " << endl;
        }
 };
 class B: public A{
