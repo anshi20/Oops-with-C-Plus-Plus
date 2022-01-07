@@ -20,6 +20,6 @@ class B: public A{
 int main()
 {
     B obj;  //Simple Oops concept
-    obj.display();     //Simple Oops concept
+    obj.displayB();     //Simple Oops concept
     return 0;
 }
